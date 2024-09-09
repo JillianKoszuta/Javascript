@@ -1,5 +1,5 @@
 // creating variable display, it is a function, takes in myName and myAge as parameters
-const display = (myName, myAge) => {
+export const display = (myName, myAge) => {
   //earlyYears is equal to 2, this will change
   let earlyYears = 2; //earlyYears is equal to 2, this can change
   earlyYears *= 10.5; //earlyYears is multiplied by 10.5
@@ -12,7 +12,3 @@ const display = (myName, myAge) => {
     `My name is ${nameToDisplay}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`
   );
 };
-
-//calling display function with jillian as myName and 22 as myAge
-display("Jillian", 22);
-display("Alex", 23);

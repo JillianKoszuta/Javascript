@@ -12,6 +12,14 @@ const showMessage = (age) => {
     //giving msg a value of...
     msg = "You are not old enough to enter.";
   }
+
+  //this says same as above, ternary operator
+  //const variableName = condition ? truthy value : falsy value
+
+  age >= 18
+    ? "You are old enough to enter."
+    : "You are not old enough to enter.";
+
   console.log(msg);
 };
 
