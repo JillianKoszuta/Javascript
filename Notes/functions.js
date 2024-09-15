@@ -5,5 +5,9 @@ function sayThanks(name) {
   );
 }
 
+const sayThanks = (name) => {
+
+}
+
 //Calls sayThanks, Cole is a value or argument. Inside of the sayThanks function the variable name is equal to Cole
 sayThanks("Cole"); //THIS IS HOW YOU CALL A FUNCTION WITH AN ARGUMENT
